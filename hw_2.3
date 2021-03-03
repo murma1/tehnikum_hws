@@ -1,0 +1,26 @@
+a = [['Julia', 34, 5656567],
+     ['Tom', 32, 5664333]]
+
+print('Hello, what is your name ?')
+
+s = input()
+print('Can we take some information? Print yes or no')
+b = input()
+
+if b == 'yes':
+    print('Okay, can you say your number ?')
+    s1 = int(input('Number?'))
+    print('How old are you ?')
+    s2 = input()
+    a.append([s, s1, s2])
+else:
+    print('Are you sure? With us you will never be bored')
+    r = input()
+    if r == 'no':
+        print('Okay, can you say your number ?')
+        s5 = int(input('Number?'))
+        print('How old are you ?')
+        s6 = input()
+        a.append([s, s5, s6])
+    else:
+        print('bye')
