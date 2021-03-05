@@ -1,0 +1,3 @@
+n = int(input('Назовите любое число: '))
+
+print(sum(range(n)))
