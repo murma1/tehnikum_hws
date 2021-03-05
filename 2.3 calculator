@@ -1,0 +1,21 @@
+c = input('1 начинает операцию, а 0 завершает)')
+while c != 0 :   
+    s = input("Знак (+,-,*,/): ")
+    if s == '0':
+        break
+    if s in ('+', '-', '*', '/'):
+        x = int(input("Первым числом будет: "))
+        y = int(input("Вторым числом будет: "))
+        if s == '+':
+            print(x + y)
+        elif s == '-':
+            print(x - y)
+        elif s == '*':
+            print(x * y)
+        elif s == '/':
+            if y != 0:
+                print(x / y)
+            else:
+                print("Деление на ноль!")
+    else:
+        print("Неверный знак операции!")
