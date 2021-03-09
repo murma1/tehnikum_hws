@@ -4,3 +4,6 @@ c = input('На что ты бы отел поменять ?: ')
 
 x = n.replace(s, c)
 print(x)
+
+if n == n[::-1]:
+    print('Перевертыш')
