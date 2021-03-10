@@ -1,3 +1,3 @@
-n = ' sd   sfder  a we       k '
+n = str(input())
 a = ' '.join(n.split())
 print(a)
